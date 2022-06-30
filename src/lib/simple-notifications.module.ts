@@ -16,7 +16,7 @@ export function optionsFactory(options) {
 
 @NgModule({
   imports: [
-    CommonModule,
+    CommonModule
   ],
   declarations: [
     SimpleNotificationsComponent,
