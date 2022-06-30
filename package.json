@@ -34,11 +34,10 @@
   },
   "homepage": "https://github.com/flauc/angular2-notifications",
   "peerDependencies": {
-    "zone.js": "^0.11.4"
-  },
-  "dependencies": {
-    "tslib": "^2.3.0",
-    "@angular/core": "^13.3.11"
+    "zone.js": "^0.11.4",
+    "@angular/cli": "^13.3.4",
+    "@angular/core": "^13.3.11",
+    "tslib": "^2.3.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^13.3.4",
@@ -49,7 +48,6 @@
     "@angular-eslint/schematics": "13.0.0",
     "@angular-eslint/template-parser": "^13.2.1",
     "@angular/animations": "^13.3.11",
-    "@angular/cli": "^13.3.4",
     "@angular/common": "^13.3.11",
     "@angular/compiler": "^13.3.11",
     "@angular/compiler-cli": "^13.3.5",
@@ -72,7 +70,7 @@
     "karma-coverage-istanbul-reporter": "~3.0.3",
     "karma-jasmine": "~4.0.1",
     "karma-jasmine-html-reporter": "^1.7.0",
-    "ng-packagr": "^12.1.2",
+    "ng-packagr": "^14.0.2",
     "protractor": "~7.0.0",
     "rxjs": "^6.6.3",
     "ts-node": "^10.1.0",

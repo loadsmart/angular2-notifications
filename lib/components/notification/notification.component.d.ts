@@ -3,6 +3,7 @@ import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { NotificationAnimationType } from '../../enums/notification-animation-type.enum';
 import { Notification } from '../../interfaces/notification.type';
 import { NotificationsService } from '../../services/notifications.service';
+import * as i0 from "@angular/core";
 export declare class NotificationComponent implements OnInit, OnDestroy {
     private notificationService;
     private domSanitizer;
@@ -47,4 +48,6 @@ export declare class NotificationComponent implements OnInit, OnDestroy {
     private instance;
     private remove;
     private contentType;
+    static ɵfac: i0.ɵɵFactoryDeclaration<NotificationComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<NotificationComponent, "simple-notification", never, { "timeOut": "timeOut"; "showProgressBar": "showProgressBar"; "pauseOnHover": "pauseOnHover"; "clickToClose": "clickToClose"; "clickIconToClose": "clickIconToClose"; "maxLength": "maxLength"; "theClass": "theClass"; "rtl": "rtl"; "animate": "animate"; "position": "position"; "item": "item"; }, {}, never, never>;
 }

@@ -3,11 +3,12 @@ import { NotificationAnimationType } from '../../enums/notification-animation-ty
 import { Notification } from '../../interfaces/notification.type';
 import { Options, Position } from '../../interfaces/options.type';
 import { NotificationsService } from '../../services/notifications.service';
+import * as i0 from "@angular/core";
 export declare class SimpleNotificationsComponent implements OnInit, OnDestroy {
     private service;
     private cd;
     constructor(service: NotificationsService, cd: ChangeDetectorRef);
-    options: Options;
+    set options(opt: Options);
     create: EventEmitter<any>;
     destroy: EventEmitter<any>;
     notifications: Notification[];
@@ -38,4 +39,6 @@ export declare class SimpleNotificationsComponent implements OnInit, OnDestroy {
     attachChanges(options: any): void;
     buildEmit(notification: Notification, to: boolean): Notification;
     cleanSingle(id: string): void;
+    static ɵfac: i0.ɵɵFactoryDeclaration<SimpleNotificationsComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<SimpleNotificationsComponent, "simple-notifications", never, { "options": "options"; }, { "create": "create"; "destroy": "destroy"; }, never, never>;
 }

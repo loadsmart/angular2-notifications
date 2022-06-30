@@ -3,6 +3,7 @@ import { NotificationType } from '../enums/notification-type.enum';
 import { Icons } from '../interfaces/icons';
 import { NotificationEvent } from '../interfaces/notification-event.type';
 import { Notification } from '../interfaces/notification.type';
+import * as i0 from "@angular/core";
 export declare class NotificationsService {
     globalOptions: any;
     constructor(globalOptions: any);
@@ -18,4 +19,6 @@ export declare class NotificationsService {
     create(title?: any, content?: any, type?: NotificationType, override?: any, context?: any): Notification;
     html(html: any, type?: NotificationType, override?: any, icon?: string, context?: any): Notification;
     remove(id?: string): void;
+    static ɵfac: i0.ɵɵFactoryDeclaration<NotificationsService, never>;
+    static ɵprov: i0.ɵɵInjectableDeclaration<NotificationsService>;
 }
