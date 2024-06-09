@@ -1,6 +1,6 @@
 {
   "name": "angular2-notifications",
-  "typings": "./dist/index.d.ts",
+  "typings": "./index.d.ts",
   "version": "16.0.1",
   "repository": {
     "type": "git",
